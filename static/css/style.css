@@ -20,6 +20,10 @@
     color: #ffffff;
 }
 
+#your-box{
+    justify-content: space-around;
+}
+
 .flex-blackjack-row-2 button{
     border: 1px solid black;
     margin: 10px;
@@ -42,6 +46,12 @@ table, th, td{
     padding: 10px;
     flex: 1;
     text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    padding: 10px;
+    flex: 1;
+    width: 90px;
 }
 
 .flex-box-container-1 div{
