@@ -1,5 +1,5 @@
-// Challenge 1: Your Age in Days
 
+// Challenge 1: Your Age in Days
 function ageInDays() {
     var birthYear = prompt("What year were you born... Good friend?");
     var ageInDay = (2021 - birthYear) * 365;
@@ -15,6 +15,7 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+// Challenge 2: Generate Cat
 function generateCat() {
     var image = document.createElement('img');
     var div = document.getElementById('flex-cat-gen');
@@ -114,7 +115,7 @@ function buttonColorChange(buttonThingy) {
     } else if (buttonThingy.value === 'random') {
         randomColors();
     }
-}
+} 
 
 function buttonsRed() {
     for (let i = 0; i < all_buttons.length; i++) {
